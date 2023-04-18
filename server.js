@@ -136,6 +136,16 @@ let vampires = {
         'spouse': 'None',  
         'diet': 'Human blood'  
     },
+    'bree' : {
+        'birthName': 'Bree Tanner',
+        'birthDate': "Still checking...", 
+        'turnedAge': '16', 
+        'birthLocation': 'Still checking...',
+        'book': 'Twilight',
+        'specialAbility': "None",
+        'spouse': 'None',  
+        'diet': 'Human blood'  
+    },
       'unknown':{
         'age': 'unknown',
         'birthName': 'unknown',
