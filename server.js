@@ -164,12 +164,11 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
 
-/*
-app.get('/api/:rapperName', (req, res) => {
-    console.log(req.params.rapperName); // returns details of selected rappers
-    res.json(rappers) // responds with whole json object
+
+app.get('/api', (req, res) => {
+    res.json(vampires) // responds with whole json object
 })
-*/
+
 
 app.get('/api/:vampName', (req, res) => {
     const vampsName = req.params.vampName.toLowerCase();
